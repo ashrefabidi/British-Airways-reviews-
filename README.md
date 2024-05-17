@@ -15,10 +15,11 @@ Laid off data : the main dataset used for this project is the "layoffs.csv" cont
 - Handling missing values / null values
 - Standardizing formats and removing duplicates
 
-  ### Codes
-  --- SQL
+### Codes
+--- SQL
 SELECT * ,
 ROW_NUMBER() OVER (PARTITION BY  company, industry,total_laid_off ,percentage_laid_off ,`date`) as row_num
-FROM layoffs_staging---
+FROM layoffs_staging
+---
 
   
