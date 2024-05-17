@@ -16,9 +16,12 @@ Laid off data : the main dataset used for this project is the "layoffs.csv" cont
 - Standardizing formats and removing duplicates
 
 ### Codes
---- SQL
+
+---SQL
 SELECT * ,
-ROW_NUMBER() OVER (PARTITION BY  company, industry,total_laid_off ,percentage_laid_off ,`date`) as row_num
+ROW_NUMBER() 
+OVER (PARTITION BY  company, industry,total_laid_off ,percentage_laid_off ,`date`) 
+AS row_num
 FROM layoffs_staging
 ---
 
