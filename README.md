@@ -1,9 +1,5 @@
 # laid off dataset cleaning
 
-## Table of content 
-- [Project overview](Project-overview)
-- [Data Cleaning ](Data-Cleaning)
-- [Codes](Codes) 
 ### Project overview 
 Employing SQL, this data cleaning project focuses on refining a dataset concerning total laid-off employees spanning the years 2019 to 2023. The process involves meticulous examination and manipulation of the data to ensure accuracy and consistency.
 
